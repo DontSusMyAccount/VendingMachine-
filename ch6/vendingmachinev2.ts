@@ -20,7 +20,7 @@ class CashPayment extends Payment {
     }
 
     public addMoney(cash: number) {
-        this.amount += cash;
+        this.amount += cash; ``
     }
 
     public isPaymentSuccess(): boolean {
